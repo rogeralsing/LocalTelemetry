@@ -12,7 +12,7 @@ docker-compose up
 
 Configure your application to send OpenTelemetry data (traces, logs, and metrics) to `localhost:4317` (the standard/default OTLP endpoint).
 
-Then you will have access to the dasboards below:
+Then you will have access to the dashboards below:
 
 [Seq (logs + traces)](http://localhost:8080/)
 
@@ -23,6 +23,8 @@ Then you will have access to the dasboards below:
 [Grafana (metrics)](http://localhost:3000/)
 
 [Aspire (logs + traces + metrics)](http://localhost:18888/)
+
+[TraceLens.IO (hosted traces + metrics)](https://tracelens.io/)
 
 ## Persistence
 
